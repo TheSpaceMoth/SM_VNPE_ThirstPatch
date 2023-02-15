@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ModMetaData>
+  <name>VNPE - Paste Dripper Thirst Patch</name>
+  <author>SpaceMoth</author>
+  <url></url>
+  <packageId>Spacemoth.VNPEPDThirst</packageId>
+  <description>A minor tweak to the Nutrient Paste Dripper added by the Vanilla Expanded Nutrient Paste mod. This tweak allows the dripper to also satisfy the thirst need of a target pawn.
+</description>
+  <supportedVersions>
+    <li>1.4</li>
+  </supportedVersions>
+    <modDependencies>
+		<li>
+			<packageId>brrainz.harmony</packageId>
+			<displayName>Harmony</displayName>
+			<downloadUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2009463077</downloadUrl>
+			<steamWorkshopUrl>https://steamcommunity.com/workshop/filedetails/?id=2009463077</steamWorkshopUrl>
+		</li>
+        <li>
+            <packageId>VanillaExpanded.VNutrientE</packageId>
+            <displayName>Vanilla Nutrient Paste Expanded</displayName>
+            <downloadUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2920385763</downloadUrl>
+            <steamWorkshopUrl>steam://url/CommunityFilePage/2920385763</steamWorkshopUrl>
+        </li>
+		<li>
+			<packageId>Dubwise.DubsBadHygiene</packageId>
+			<displayName>Dubs Bad Hygiene</displayName>
+			<downloadUrl>https://steamcommunity.com/workshop/filedetails/?id=836308268</downloadUrl>
+			<steamWorkshopUrl>steam://url/CommunityFilePage/836308268</steamWorkshopUrl>
+		</li>
+    </modDependencies>
+    <loadAfter>
+        <li>brrainz.harmony</li>
+        <li>VanillaExpanded.VNutrientE</li>
+        <li>Dubwise.DubsBadHygiene</li>
+    </loadAfter>
+</ModMetaData>
